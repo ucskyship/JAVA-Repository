@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="778322f2-3a42-420b-ad5d-7fe605866ba4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../ASSIGNMENTS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Works/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Works/AreaOfTriangleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Works/AreaOfTriangleCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Works/CHAPT. 2/.idea/CHAPT. 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Works/CHAPT. 2/ComparingIntegers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Works/CHAPT. 2/Diameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Works/CHAPT. 2/DivisibleByThree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Works/CHAPT. 2/IntegerEquivalent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Works/CHAPT. 2/NegativePositiveZero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Works/CHAPT. 2/SameLineDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Works/CHAPT. 2/SeparatingDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Works/CHAPT. 2/ShapesWithAsteriks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Works/CHAPT. 2/SmallestLargest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Works/CHAPT. 2/TableOfSquares.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="285lSKqhvT1qAJ0LaR0kOt3QMcA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/ucskyship/Documents/SEMICOLON/JAVA-WORKS/HOME-WORKs/CHAPT. 2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="778322f2-3a42-420b-ad5d-7fe605866ba4" name="Changes" comment="" />
+      <created>1650514325881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650514325881</updated>
+      <workItem from="1650514327274" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

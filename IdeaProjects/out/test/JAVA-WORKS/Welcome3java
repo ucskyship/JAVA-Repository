@@ -1,0 +1,10 @@
+public class Welcome2 {
+
+	public static void main(String... args){
+	
+		Sytem.out.printf("Welcome\nto\nJava\nProgramming");
+	}
+
+
+
+}
