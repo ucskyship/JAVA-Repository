@@ -8,33 +8,30 @@ public class ArrayList implements List {
     private String[] elements = new String[arraySize];
 
 
-
     @Override
-    public boolean isEmpty(){
+    public boolean isEmpty() {
         return size == 0;
     }
 
     @Override
-    public void add(String item){
-        if(size == arraySize-1){
-            int previousSize =  arraySize;
+    public void add(String item) {
+        if (size == arraySize - 1) {
+            int previousSize = arraySize;
             arraySize *= 2;
             String[] newElements = new String[arraySize];
-            System.arraycopy(elements, 0, newElements, 0,previousSize);
+            System.arraycopy(elements, 0, newElements, 0, previousSize);
             elements = newElements;
 
         }
         elements[size] = item;
-       size++;       // increment can be written as this is you don't want to increment size in the [];
+        size++;       // increment can be written as this is you don't want to increment size in the [];
     }
 
     @Override
-    public void delete(String item){
+    public void delete(String item) {
         for (int i = 0; i < size; i++) {
-            if(Objects.equals(item, elements[i])){
-                for (int j = i; j < size; j++) {
-                    elements[j] = elements[j+1];
-                }
+            if (Objects.equals(item, elements[i])) {
+                System.arraycopy(elements, i + 1, elements, i, size - i);
             }
         }
         size--;

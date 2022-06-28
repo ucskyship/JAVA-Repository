@@ -15,40 +15,40 @@ class ListTest {
     }
 
     @Test
-    void testListIsEmpty(){
+    void testListIsEmpty() {
         assertTrue(list.isEmpty());
     }
 
     @Test
-    void addItem_listNotEmptyTest(){
+    void addItem_listNotEmptyTest() {
         list.add("G-string");
         assertFalse(list.isEmpty());
     }
 
     @Test
-    void addItem_andRemoveItem_fromListTest(){
+    void addItem_andRemoveItem_fromListTest() {
         list.add("E-string");
         list.delete("E-string");
         assertTrue(list.isEmpty());
     }
 
     @Test
-    void addItem_ListSizeIncreasesTest(){
+    void addItem_listSizeIncreasesTest() {
         list.add("G-string");
         list.add("A-string");
         assertEquals(2, list.size());
     }
 
     @Test
-    void addX_addY_removeX_sizeReduceTest(){
-        list.add("G-string");
-        list.add("A-string");
-        list.delete("G-string");
+    void addX_addY_removeX_sizeReduceTest() {
+        list.add("G-String");
+        list.add("A-String");
+        list.delete("G-String");
         assertEquals(1, list.size());
     }
 
     @Test
-    void addX_addY_removeX_sizeIsNotEmptyTest(){
+    void addX_addY_removeX_sizeIsNotEmptyTest() {
         list.add("G-string");
         list.add("A-string");
         list.add("F-string");
@@ -57,7 +57,7 @@ class ListTest {
     }
 
     @Test
-    void addX_addY_removeX_retrieveYTest(){
+    void addX_addY_removeX_retrieveYTest() {
         list.add("G-String");
         list.add("A-String");
         String gotten = list.get(1);
@@ -65,7 +65,7 @@ class ListTest {
     }
 
     @Test
-    void addX_addY_removeX_retrieveXTest(){
+    void addX_addY_removeX_retrieveXTest() {
         list.add("G-String");
         list.add("A-String");
         String gotten = list.get(0);
@@ -73,7 +73,7 @@ class ListTest {
     }
 
     @Test
-    void addX_addY_removeX_getX_ShouldReturnYTest(){
+    void addX_addY_removeX_getX_ShouldReturnYTest() {
         list.add("G-String");
         list.add("A-String");
         list.add("E-String");
@@ -83,7 +83,7 @@ class ListTest {
     }
 
     @Test
-    void addSixElement_CapacityShouldDoubleTest(){
+    void addSixElement_CapacityShouldDoubleTest() {
         assertEquals(5, list.capacity());
         list.add("G-String");
         list.add("A-String");
