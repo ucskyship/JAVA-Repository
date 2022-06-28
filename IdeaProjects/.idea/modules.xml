@@ -4,11 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/chapter/CHAPTER.iml" filepath="$PROJECT_DIR$/chapter/CHAPTER.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/Chapter3.iml" filepath="$PROJECT_DIR$/chapter3/Chapter3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JAVA-WORKS/CLASS_WORK/ClassExercises/ClassExercises.iml" filepath="$PROJECT_DIR$/JAVA-WORKS/CLASS_WORK/ClassExercises/ClassExercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA-WORKS/HOME-WORKs/HOME-WORKs.iml" filepath="$PROJECT_DIR$/JAVA-WORKS/HOME-WORKs/HOME-WORKs.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA-WORKS/JAVA-WORKS.iml" filepath="$PROJECT_DIR$/JAVA-WORKS/JAVA-WORKS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JAVA-WORKS/CLASS_WORK/cLASS/cLASS.iml" filepath="$PROJECT_DIR$/JAVA-WORKS/CLASS_WORK/cLASS/cLASS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA-WORKS/CLASS_WORK/cLASS_tutorial/cLASS_tutorial.iml" filepath="$PROJECT_DIR$/JAVA-WORKS/CLASS_WORK/cLASS_tutorial/cLASS_tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/new/new.iml" filepath="$PROJECT_DIR$/new/new.iml" />
     </modules>
   </component>

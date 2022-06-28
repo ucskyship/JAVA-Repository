@@ -1,3 +1,5 @@
+import array.All.Stuff;
+
 import java.util.Arrays;
 
 public class MoneyMain {

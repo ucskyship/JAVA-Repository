@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import stores.SemicolonStores;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -50,13 +51,6 @@ class SemicolonStoresTest {
         assertEquals("Oma", semicolonStores.getCashierName());
     }
 
-//    @Test
-//    void testForTotalCostOfItemsBought(){
-//        double totalCost = unitPrice * numberOfItems;
-//        semicolonStores.setTototalPrice(totalCost);
-//        assertEquals(totalCost, getTotalPrice());
-//    }
-
     @Test
     void testForAmountIssued(){
         int amountIssued = 20000;
@@ -77,5 +71,11 @@ class SemicolonStoresTest {
         semicolonStores.excessBalance(balance);
         assertEquals(2300, semicolonStores.getExcessBalance());
     }
+//    @Test
+//    void testForTotalCostOfItemsBought(){
+//        double totalCost = 3000;
+//        semicolonStores.setTotalPrice(totalCost);
+//        assertEquals(3000, stores.SemicolonStores.getTotalPrice());
+//    }
 
 }

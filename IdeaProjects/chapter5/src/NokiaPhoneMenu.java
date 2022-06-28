@@ -214,12 +214,11 @@ public class NokiaPhoneMenu {
 
             case 3 -> {
                 System.out.println("Chat -");
-                prompt = """
+                System.out.print("""
                         0. Back
                         
                         99. Cancel
-                        """;
-                System.out.print(prompt);
+                        """);
                 userResponse = keypadInput.nextInt();
                 if (userResponse == 0) mainMenuFunction();
                 if (userResponse == 99) homePage();
@@ -249,12 +248,11 @@ public class NokiaPhoneMenu {
 
             case 8 -> {
                 System.out.println("Games -");
-                prompt = """
+                System.out.print("""
                         0. Back
                         
                         99. Cancel
-                        """;
-                System.out.print(prompt);
+                        """);
                 userResponse = keypadInput.nextInt();
                 switch (userResponse){
                     case 1 -> mainMenuFunction();
