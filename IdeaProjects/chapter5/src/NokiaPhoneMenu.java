@@ -175,7 +175,7 @@ public class NokiaPhoneMenu {
                     homePage();
                 }
             }
-            case 0 -> {homePage();}
+            case 0 -> homePage();
             default ->
                 homePage();
         }
@@ -442,7 +442,7 @@ public class NokiaPhoneMenu {
             }
             case 0 -> mainMenuFunction();
             case 99 -> homePage();
-            default -> {homePage();}
+            default -> homePage();
         }
     }
 

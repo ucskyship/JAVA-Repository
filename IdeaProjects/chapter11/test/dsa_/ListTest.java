@@ -60,8 +60,7 @@ class ListTest {
     void addX_addY_removeX_retrieveYTest() {
         list.add("G-String");
         list.add("A-String");
-        String gotten = list.get(1);
-        assertEquals("A-String", gotten);
+        assertEquals("A-String",list.get(1));
     }
 
     @Test

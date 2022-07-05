@@ -7,7 +7,6 @@ public class ArrayList implements List {
     private int arraySize = 5;
     private String[] elements = new String[arraySize];
 
-
     @Override
     public boolean isEmpty() {
         return size == 0;
@@ -21,7 +20,6 @@ public class ArrayList implements List {
             String[] newElements = new String[arraySize];
             System.arraycopy(elements, 0, newElements, 0, previousSize);
             elements = newElements;
-
         }
         elements[size] = item;
         size++;       // increment can be written as this is you don't want to increment size in the [];
@@ -50,5 +48,14 @@ public class ArrayList implements List {
     @Override
     public int capacity() {
         return arraySize;
+    }
+
+    public boolean contains(String item) {
+        for (String anItem : elements) {
+            if (Objects.equals(anItem, item)) {
+                return true;
+            }
+        }
+        return false;
     }
 }
