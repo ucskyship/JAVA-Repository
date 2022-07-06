@@ -9,5 +9,5 @@ public interface Set {
 
     String get(int item);
 
-    void delete(String item);
+    void remove(String item);
 }

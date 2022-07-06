@@ -52,7 +52,7 @@ class SetTest {
     @DisplayName("test that we can remove from a set")
     void testThatWeCanRemoveFromSet(){
         mySet.add("BlackBottle");
-        mySet.delete("BlackBottle");
+        mySet.remove("BlackBottle");
         assertTrue(mySet.isEmpty());
     }
 

@@ -28,7 +28,7 @@ public class HashSet implements Set {
     }
 
     @Override
-    public void delete(String item) {
-        setArray.delete(item);
+    public void remove(String item) {
+        setArray.remove(item);
     }
 }

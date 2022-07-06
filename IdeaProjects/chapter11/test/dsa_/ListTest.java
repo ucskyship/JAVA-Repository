@@ -28,7 +28,7 @@ class ListTest {
     @Test
     void addItem_andRemoveItem_fromListTest() {
         list.add("E-string");
-        list.delete("E-string");
+        list.remove("E-string");
         assertTrue(list.isEmpty());
     }
 
@@ -43,7 +43,7 @@ class ListTest {
     void addX_addY_removeX_sizeReduceTest() {
         list.add("G-String");
         list.add("A-String");
-        list.delete("G-String");
+        list.remove("G-String");
         assertEquals(1, list.size());
     }
 
@@ -52,7 +52,7 @@ class ListTest {
         list.add("G-string");
         list.add("A-string");
         list.add("F-string");
-        list.delete("G-string");
+        list.remove("G-string");
         assertFalse(list.isEmpty());
     }
 
@@ -76,7 +76,7 @@ class ListTest {
         list.add("G-String");
         list.add("A-String");
         list.add("E-String");
-        list.delete("G-String");
+        list.remove("G-String");
         String gotten = list.get(0);
         assertEquals("A-String", gotten);
     }

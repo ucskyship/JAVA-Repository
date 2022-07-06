@@ -6,6 +6,11 @@ public class ArrayList implements List {
     private int size = 0;
     private int arraySize = 5;
     private String[] elements = new String[arraySize];
+    public ArrayList(int size) {
+        this.size = size;
+        arraySize = size;
+    }
+    public ArrayList(){}
 
     @Override
     public boolean isEmpty() {
@@ -24,9 +29,15 @@ public class ArrayList implements List {
         elements[size] = item;
         size++;       // increment can be written as this is you don't want to increment size in the [];
     }
+    public void addItem(String item){
+        if(elements.length < arraySize){
+            elements[size] = item;
+            size++;
+        }
+    }
 
     @Override
-    public void delete(String item) {
+    public void remove(String item) {
         for (int i = 0; i < size; i++) {
             if (Objects.equals(item, elements[i])) {
                 System.arraycopy(elements, i + 1, elements, i, size - i);
@@ -34,6 +45,14 @@ public class ArrayList implements List {
         }
         size--;
     }
+
+    public void remove(int index) {
+        for (int i = index; i < size; i++) {
+                System.arraycopy(elements, i + 1, elements, i, size - i);
+        }
+        size--;
+    }
+
 
     @Override
     public int size() {
@@ -52,10 +71,10 @@ public class ArrayList implements List {
 
     public boolean contains(String item) {
         for (String anItem : elements) {
-            if (Objects.equals(anItem, item)) {
-                return true;
+            if (!Objects.equals(anItem, item)) {
+                return false;
             }
         }
-        return false;
+        return true;
     }
 }
